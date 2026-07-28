@@ -1,0 +1,93 @@
+export const translations = {
+  pt: {
+    nav: { home: "Home", about: "Sobre", projects: "Projetos", contact: "Contatos" },
+    hero: {
+      eyebrow: "REV. 2026 — FICHA TÉCNICA",
+      spec: {
+        role: "FUNÇÃO",
+        roleVal: "Desenvolvedor de Software",
+        focus: "FOCO",
+        focusVal: "Arquitetura de Computadores · Sistemas",
+        status: "STATUS",
+        statusVal: "Em aprendizado ativo",
+        current: "PROJETO ATUAL",
+      },
+      description:
+        "Estudante de Ciência da Computação. Gosto de entender como as coisas funcionam de verdade, do transistor ao software.",
+      ctaProjects: "Ver Projetos",
+      ctaContact: "Falar Comigo",
+    },
+    about: {
+      kicker: "SOBRE MIM",
+      title: "Sobre",
+      p1: "Sou estudante de Ciência da Computação e gosto de entender como as coisas funcionam de verdade, da porta lógica até o código de alto nível. No momento estou projetando e construindo, do zero, uma CPU inspirada na MC6809 no Logisim Evolution: decodificação de instruções, ROM de controle, máquina de estados e todos os modos de endereçamento.",
+      p2: "Estudo arquitetura de computadores pelos livros do Hennessy & Patterson e do Tanenbaum, e já construí projetos que vão de robótica a aplicativos desktop completos. Aprendo testando: erro, leio o log, ajusto o código e sigo até funcionar.",
+      skillsTitle: "Tecnologias & Ferramentas",
+    },
+    projects: {
+      kicker: "MEU TRABALHO",
+      title: "Projetos",
+      subtitle: "Alguns dos projetos que venho construindo, entre hardware e software.",
+      viewCode: "Ver código",
+      readMore: "Ler mais",
+    },
+    contact: {
+      kicker: "VAMOS CONVERSAR",
+      title: "Contato",
+      blurb:
+        "Tem um projeto em mente, uma vaga interessante ou só quer trocar uma ideia sobre arquitetura de computadores? Manda uma mensagem.",
+      nameLabel: "Nome",
+      emailLabel: "E-mail",
+      messageLabel: "Mensagem",
+      send: "Enviar Mensagem",
+      statusMsg: "O Gmail vai abrir em uma nova aba com a mensagem pronta. É só clicar em enviar.",
+      emailCopied: "Email copiado! ✓",
+    },
+    footer: { text: "© 2026 Daniel. Feito com café, debug e Web Audio API." },
+  },
+  en: {
+    nav: { home: "Home", about: "About", projects: "Projects", contact: "Contact" },
+    hero: {
+      eyebrow: "REV. 2026 — DATASHEET",
+      spec: {
+        role: "ROLE",
+        roleVal: "Software Developer",
+        focus: "FOCUS",
+        focusVal: "Computer Architecture · Systems",
+        status: "STATUS",
+        statusVal: "Actively learning",
+        current: "CURRENT PROJECT",
+      },
+      description:
+        "Computer Science student. I like understanding how things really work, from the transistor to the software.",
+      ctaProjects: "View Projects",
+      ctaContact: "Get In Touch",
+    },
+    about: {
+      kicker: "ABOUT ME",
+      title: "About",
+      p1: "I'm a Computer Science student and naturally curious about how things really work, from logic gates to high-level code. Right now I'm designing and building a CPU inspired by the MC6809 from scratch in Logisim Evolution, with instruction decoding, a control ROM, a finite state machine, and every addressing mode.",
+      p2: "Alongside that, I study computer architecture through Hennessy & Patterson and Tanenbaum, and I've built projects ranging from robotics to full desktop apps. I learn by testing things out: break it, read the log, fix it, and keep going until it works.",
+      skillsTitle: "Technologies & Tools",
+    },
+    projects: {
+      kicker: "MY WORK",
+      title: "Projects",
+      subtitle: "Some of the projects I've been building, spanning hardware and software.",
+      viewCode: "View code",
+      readMore: "Read more",
+    },
+    contact: {
+      kicker: "LET'S TALK",
+      title: "Contact",
+      blurb: "Have a project in mind, an interesting opportunity, or just want to talk about computer architecture? Send me a message.",
+      nameLabel: "Name",
+      emailLabel: "Email",
+      messageLabel: "Message",
+      send: "Send Message",
+      statusMsg: "Gmail will open in a new tab with the message ready. Just hit send.",
+      emailCopied: "Email copied! ✓",
+    },
+    footer: { text: "© 2026 Daniel. Built with coffee, debugging, and the Web Audio API." },
+  },
+};
