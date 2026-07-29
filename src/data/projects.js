@@ -12,7 +12,7 @@ export const projectsData = [
     en: "Back-end architecture focused on process automation and scalability, featuring integration with external APIs and management of schedules, finances, reminders, and scheduled messages. Utilizes Redis for caching, rate limiting, and processing queues, as well as Docker for containerization.",
   },
     tags: ["Python", "Redis", "MySQL", "Docker", "AI"],
-    link: "https://github.com/DHEX9/Secretaria-Pessoal-IA",
+    link: "https://github.com/DHEX9/Secretaria-Pessoal-IA-2.0",
   },
   {
     designator: "U2",
@@ -27,7 +27,7 @@ export const projectsData = [
     en: "WhatsApp-integrated chatbot for process automation—including schedule, finance, and reminder management—with weather forecast API integration.",
   },
     tags: ["Python", "Node", "Baileys", "MySQL", "AI"],
-    link: "https://github.com/DHEX9/Secretaria-Pessoal-IA",
+    link: "https://github.com/DHEX9/Projeto-Nero",
   },
   {
     designator: "U3",
