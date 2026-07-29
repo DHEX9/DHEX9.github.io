@@ -2,25 +2,40 @@ export const projectsData = [
   {
     designator: "U1",
     category: { pt: "IA", en: "IA" },
-    title: "Secretária Pessoal Com IA",
+    title: "Nero 2.0 - Secretária Pessoal Com IA",
     desc: {
-      pt: "Assistente virtual que organiza agenda, finanças e lembretes, e automatiza tarefas do dia a dia por meio de conversas em chat.",
-      en: "Virtual assistant that manages schedules, finances, and reminders, and automates everyday tasks through chat conversations.",
+      pt: "Secretária virtual que organiza agenda, finanças, lembretes, listas de compras e diário, automatiza tarefas do dia a dia por meio de conversas em chat.",
+      en: "A virtual assistant that organizes schedules, finances, reminders, shopping lists, and a journal, automating daily tasks through chat conversations.",
     },
     longDesc: {
-      pt: "A Nero é uma assistente virtual que funciona como uma secretária pessoal digital. Por meio de conversas em linguagem natural, ela ajuda a organizar compromissos, controlar finanças, criar lembretes e automatizar tarefas do dia a dia. O sistema também envia mensagens programadas, como passagens bíblicas, previsão do tempo e cumprimentos personalizados de bom dia e boa noite, de acordo com as preferências de cada usuário. Foi construída com foco em automação, inteligência artificial e produtividade.",
-      en: "Nero is a virtual assistant that works as a personal digital secretary. Through natural language conversations, it helps organize schedules, track finances, create reminders, and automate everyday tasks. The system also sends scheduled messages, like Bible verses, weather forecasts, and personalized good morning and good night greetings, based on each user's preferences. It was built with a focus on automation, artificial intelligence, and productivity.",
-    },
-    tags: ["Python", "FastAPI", "Node.js", "Redis", "MySQL", "Docker", "AI"],
+    pt: "Arquitetura back-end voltada para automação de processos e escalabilidade, integração com APIs externas e gerenciamento de agenda, finanças, lembretes e mensagens programadas. Utilização de Redis para cache, rate limiting e filas de processamento, além de Docker para conteinerização.",
+    en: "Back-end architecture focused on process automation and scalability, featuring integration with external APIs and management of schedules, finances, reminders, and scheduled messages. Utilizes Redis for caching, rate limiting, and processing queues, as well as Docker for containerization.",
+  },
+    tags: ["Python", "Redis", "MySQL", "Docker", "AI"],
     link: "https://github.com/DHEX9/Secretaria-Pessoal-IA",
   },
   {
     designator: "U2",
+    category: { pt: "IA", en: "IA" },
+    title: "Nero 1.0 - Secretária Pessoal Com IA",
+    desc: {
+      pt: "Secretária virtual que organiza agenda, finanças e lembretes, e automatiza tarefas do dia a dia por meio de conversas em chat.",
+      en: "Virtual assistant that manages schedules, finances, and reminders, and automates everyday tasks through chat conversations.",
+    },
+    longDesc: {
+    pt: "Chatbot integrado ao WhatsApp para automação de processos, incluindo gerenciamento de agenda, finanças e lembretes, com integração à API de previsão do tempo.",
+    en: "WhatsApp-integrated chatbot for process automation—including schedule, finance, and reminder management—with weather forecast API integration.",
+  },
+    tags: ["Python", "Node", "Baileys", "MySQL", "AI"],
+    link: "https://github.com/DHEX9/Secretaria-Pessoal-IA",
+  },
+  {
+    designator: "U3",
     category: { pt: "ROBÓTICA", en: "ROBOTICS" },
     title: "Fusca-azul",
     desc: {
-      pt: "Carrinho robótico controlado por gestos, com visão computacional em tempo real. Detecção feita com MediaPipe e controle via ESP32. Construído em parceria com o Pedro Vairo.",
-      en: "Gesture-controlled robot car with real-time computer vision. Detection runs on MediaPipe, with an ESP32 handling control. Built together with Pedro Vairo.",
+      pt: "Carrinho robótico controlado por gestos, com visão computacional em tempo real criado em parceiria com a equipe de robótica da UFES. Detecção feita com MediaPipe e controle via ESP32.",
+      en: "Gesture-controlled robotic cart featuring real-time computer vision, created in partnership with the UFES robotics team. Detection is performed using MediaPipe, and control is handled by an ESP32.",
     },
     longDesc: {
       pt: "Reconhece gestos da mão levando em conta lateralidade, distância entre os dedos e casos como o punho fechado, enviando comandos para um ESP32 que controla os motores. Passou por uma refatoração para separar responsabilidades, correção de conflitos de IP na rede local com IP estático, e ajustes para lidar com chamadas HTTP bloqueantes no firmware.",
@@ -30,7 +45,7 @@ export const projectsData = [
     link: "https://github.com/erufes/fusca-azul",
   },
   {
-    designator: "U3",
+    designator: "U4",
     category: { pt: "DESKTOP APP", en: "DESKTOP APP" },
     title: "Xadrez em Java",
     desc: {
@@ -45,7 +60,7 @@ export const projectsData = [
     link: "https://github.com/DHEX9/Chess-java",
   },
   {
-    designator: "U4",
+    designator: "U5",
     category: { pt: "WEB APP", en: "WEB APP" },
     title: "DignCare",
     desc: {
