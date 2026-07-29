@@ -34,8 +34,8 @@ export const projectsData = [
     category: { pt: "ROBÓTICA", en: "ROBOTICS" },
     title: "Fusca-azul",
     desc: {
-      pt: "Carrinho robótico controlado por gestos, com visão computacional em tempo real para captura de movimentos, criado em parceiria com a equipe de robótica da UFES. Detecção feita com MediaPipe e controle via ESP32.",
-      en: "Gesture-controlled robotic cart featuring real-time computer vision for motion capture, developed in partnership with the UFES robotics team. Detection is performed using MediaPipe, with control via an ESP32.",
+      pt: "Carrinho robótico controlado por gestos, com visão computacional em tempo real para captura de movimentos, criado em parceiria com a equipe de robótica da UFES. Detecção feita com OpenCV e MediaPipe e controle via ESP32.",
+      en: "Gesture-controlled robotic cart featuring real-time computer vision for motion capture, developed in partnership with the UFES robotics team. Detection is performed using OpenCV and MediaPipe, with control via an ESP32.",
     },
     longDesc: {
       pt: "Reconhece gestos da mão levando em conta lateralidade, distância entre os dedos e casos como o punho fechado, enviando comandos para um ESP32 que controla os motores. Passou por uma refatoração para separar responsabilidades, correção de conflitos de IP na rede local com IP estático, e ajustes para lidar com chamadas HTTP bloqueantes no firmware.",
